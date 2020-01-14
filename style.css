@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    position: relative;
+    font-size: 30px;
+}
+
+.contenitore {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pari {
+    position: absolute;
+    top: 200px;
+    width: 150px;
+}
+
+.Dispari {
+    position: absolute;
+    right: 555px;
+    top: 200px;
+    width: 150px;
+}
+
+.verde {
+    color: green;
+}
+
+.rosso {
+    color: red;
+}
+
+.r {
+    display: block;
+}
